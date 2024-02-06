@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 				console.log('Current volume:', currentVolume);
 
-				const threshold = 50;
+				const threshold = 70;
 
 				if (!isBlown && currentVolume > threshold) {
 					blowOutCandle();
